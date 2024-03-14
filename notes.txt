@@ -1,0 +1,15 @@
+degree:year:branch
+x for all diff x we shud have diff file
+name accordingly
+function to create batchwise csv files and append data to them
+
+each dict is one course with code, coursenaame, slot (as keys)
+[{
+    code, coursenaame, slot (as keys)
+
+},
+
+{
+
+}
+...]

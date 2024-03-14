@@ -1,54 +1,67 @@
-# import pandas as pd
-# data = pd.read_csv("02_UG_CE_TimeTable_Jan-May-2024.xlsx - s2,s4.csv")
-# codes = data["5"]
-# # print(data[0][4])
-# print(codes)
 
-# # for d in data : 
-# #     print(d)
-
-# Open the CSV file for reading
 import csv
-
-# Open the CSV file for reading
 with open("02_UG_CE_TimeTable_Jan-May-2024.xlsx - s2,s4.csv", newline='') as csvfile:
-    # Create a CSV reader object
     csv_reader = csv.reader(csvfile)
-    
-    # Initialize an empty list to store the data
     data_list = []
-    
-    # Iterate over each row in the CSV file and append it to the data list
     for row in csv_reader:
         data_list.append(row)
 
-for row in data_list:
-    print(row)
+# for row in data_list:
+#     print(row)
 
 string = str(data_list[2])
 s1 = [s.strip() for s in string.split(",")]
 s2 = [s.strip() for s in s1[1].split(" ")]
 if len(s2) == 2:
-    semester = s2[1]
-elif len(s2) == 4:
     semester = list(s2[1])
+elif len(s2) == 4:
+    sem = s2[1]
+    semester = [sem]
     semester.append(s2[3])
-
-for c in s2:
-    if not c.isalpha():
-        s11="".join(c)
-#sem = "".join(c for c in sem if c.isalpha())
-#print(semester)
+newsem = []
+for sem in semester:
+    sem = "".join(c for c in sem if c.isalpha())
+    newsem.append(sem)
+semesterList = newsem
+# print(semesterList)
 
 reduced_data = []
-# Print the list
 for i in range(5,len(data_list)):
     reduced_data.append(data_list[i])
-    
 courseCodes = []
 courseNames = []   
-slots = []
-rooms = [] 
-for row in reduced_data:
-    courseCodes.append(row[0])
+classSlots = []
+labSlots = []
+for r in reduced_data:
+    courseCodes.append(r[0])
+    courseNames.append(r[1])
+    classSlots.append(r[6])
+classes = []
+labs = []
+for c in classSlots:
+     l = [s.strip() for s in c.split(",")]
+     classes.append(l[0])
+     labs.append(l[1])
+
+# print(classes)
+# print(labs)
+
+btech = {}
+for sem in ('II','IV','VI','VIII'):
+    # for s in semesterList:
+    #     if s == sem:
+            btech[f"Semester_{sem}"] = {}    
+            for branch in ['CE','CSE','EE','ME','DSE']:
+                btech[f"Semester_{sem}"][branch] = {}
+                for s in semesterList:
+                    if s == sem:
+                        for i in range(len(courseCodes)):
+                            if courseCodes[i][0:2] == branch:
+                                btech[f"Semester_{s}"][branch][courseCodes[i]] = [courseNames[i],classes[i],labs[i]]
+
+
+for batch, branches in btech.items():
+    print(batch)
+    for branch in branches:
+        print(f"  - {branch}: {btech[batch][branch]}")
 
