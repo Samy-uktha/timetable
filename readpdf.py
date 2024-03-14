@@ -65,3 +65,7 @@ for batch, branches in btech.items():
     for branch in branches:
         print(f"  - {branch}: {btech[batch][branch]}")
 
+
+#gjfgjjdigjfkgjdkgjdkfgj
+        #fkbkfjbklbkn
+
