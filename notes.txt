@@ -13,3 +13,11 @@ each dict is one course with code, coursenaame, slot (as keys)
 
 }
 ...]
+def getData(deg, sem, branch):
+    sample = ""
+    csvlist = []#add all csv files from folder
+    for file in csvlist:
+        if file == sample:
+            #extract code, name , slot
+            return [{code:[name,slot]},{},{}]
+def getTiming(dict array):

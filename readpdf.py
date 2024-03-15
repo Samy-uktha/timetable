@@ -67,5 +67,5 @@ for batch, branches in btech.items():
 
 
 #gjfgjjdigjfkgjdkgjdkfgj
-        #fkbkfjbklbkn
+        
 
