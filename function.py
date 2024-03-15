@@ -66,6 +66,10 @@ def getBtechData(sem,branch):
             csv_reader = csv.reader(csvfile)
             for row in csv_reader:
                 sme_list.append(row)
+        with open("csv files/01_UG_CommonCourses_TimeTable_Jan-May-2024.xlsx - HSE.csv", newline='') as csvfile:
+            csv_reader = csv.reader(csvfile)
+            for row in csv_reader:
+                hse_list.append(row)
         
         
     elif sem == 2:
@@ -75,10 +79,13 @@ def getBtechData(sem,branch):
                 core_list.append(row)
     reduced_core = []
     reduced_sme = []
+    reduced_hse = []
     for i in range(5,len(core_list)):
         reduced_core.append(core_list[i])
     for i in range(5,len(sme_list)):
         reduced_sme.append(sme_list[i])
+    for i in range(5,len(hse_list)):
+        reduced_hse.append(hse_list[i])
     # print(sme_list)
     # print(reduced_sme)
     def getList(data):
@@ -110,6 +117,7 @@ def getBtechData(sem,branch):
     # print(courses)
     dictarray["CORE"] = getList(reduced_core)
     dictarray["SME"] = getList(reduced_sme)
+    dictarray["HSE"] = getList(reduced_hse)
     # courses = []
     # for dic in dictarray:
     #     for key in dic:
