@@ -1,41 +1,41 @@
 import csv
 
-btechCSV = [
-    [
-        "csv files/01_UG_CommonCourses_TimeTable_Jan-May-2024.xlsx - S2.csv",
-        "csv files/01_UG_CommonCourses_TimeTable_Jan-May-2024.xlsx - S2, S4 SME.csv",
-        "csv files/01_UG_CommonCourses_TimeTable_Jan-May-2024.xlsx - HSE.csv",
-        "csv files/01_UG_CommonCourses_TimeTable_Jan-May-2024.xlsx - GCE.csv"
+# btechCSV = [
+#     [
+#         "csv files/01_UG_CommonCourses_TimeTable_Jan-May-2024.xlsx - S2.csv",
+#         "csv files/01_UG_CommonCourses_TimeTable_Jan-May-2024.xlsx - S2, S4 SME.csv",
+#         "csv files/01_UG_CommonCourses_TimeTable_Jan-May-2024.xlsx - HSE.csv",
+#         "csv files/01_UG_CommonCourses_TimeTable_Jan-May-2024.xlsx - GCE.csv"
 
-    ],
-    [
-        "csv files/02_UG_CE_TimeTable_Jan-May-2024.xlsx - s2,s4.csv",
-        "csv files/02_UG_CE_TimeTable_Jan-May-2024.xlsx - s6.csv",
-        "csv files/02_UG_CE_TimeTable_Jan-May-2024.xlsx - s8.csv",
-        "csv files/02_UG_CE_TimeTable_Jan-May-2024.xlsx - PME_ERC.csv"
-    ],
-    [
-        "csv files/03_UG_CSE_TimeTable_Jan-May-2024.xlsx - s2,s4.csv",
-        "csv files/03_UG_CSE_TimeTable_Jan-May-2024.xlsx - s6.csv",
-        "csv files/03_UG_CSE_TimeTable_Jan-May-2024.xlsx - s8.csv",
-        "csv files/03_UG_CSE_TimeTable_Jan-May-2024.xlsx - PME_ERC.csv"
-    ],
-    [
-        "csv files/05_UG_EE_TimeTable_Jan-May-2024.xlsx - s2,s4.csv",
-        "csv files/05_UG_EE_TimeTable_Jan-May-2024.xlsx - s6.csv",
-        "csv files/05_UG_EE_TimeTable_Jan-May-2024.xlsx - s8.csv",
-        "csv files/05_UG_EE_TimeTable_Jan-May-2024.xlsx - PME_ERC.csv"
-    ],
-    [
-        "csv files/06_UG_ME_TimeTable_Jan-May-2024.xlsx - s2,s4.csv",
-        "csv files/06_UG_ME_TimeTable_Jan-May-2024.xlsx - s6.csv",
-        "csv files/06_UG_ME_TimeTable_Jan-May-2024.xlsx - s8.csv",
-        "csv files/06_UG_ME_TimeTable_Jan-May-2024.xlsx - PME_ERC.csv"
-    ],
-    [
-        "csv files/04_UG_DS_TimeTable_Jan-May-2024.xlsx - s2,s4.csv"
-    ]
-]
+#     ],
+#     [
+#         "csv files/02_UG_CE_TimeTable_Jan-May-2024.xlsx - s2,s4.csv",
+#         "csv files/02_UG_CE_TimeTable_Jan-May-2024.xlsx - s6.csv",
+#         "csv files/02_UG_CE_TimeTable_Jan-May-2024.xlsx - s8.csv",
+#         "csv files/02_UG_CE_TimeTable_Jan-May-2024.xlsx - PME_ERC.csv"
+#     ],
+#     [
+#         "csv files/03_UG_CSE_TimeTable_Jan-May-2024.xlsx - s2,s4.csv",
+#         "csv files/03_UG_CSE_TimeTable_Jan-May-2024.xlsx - s6.csv",
+#         "csv files/03_UG_CSE_TimeTable_Jan-May-2024.xlsx - s8.csv",
+#         "csv files/03_UG_CSE_TimeTable_Jan-May-2024.xlsx - PME_ERC.csv"
+#     ],
+#     [
+#         "csv files/05_UG_EE_TimeTable_Jan-May-2024.xlsx - s2,s4.csv",
+#         "csv files/05_UG_EE_TimeTable_Jan-May-2024.xlsx - s6.csv",
+#         "csv files/05_UG_EE_TimeTable_Jan-May-2024.xlsx - s8.csv",
+#         "csv files/05_UG_EE_TimeTable_Jan-May-2024.xlsx - PME_ERC.csv"
+#     ],
+#     [
+#         "csv files/06_UG_ME_TimeTable_Jan-May-2024.xlsx - s2,s4.csv",
+#         "csv files/06_UG_ME_TimeTable_Jan-May-2024.xlsx - s6.csv",
+#         "csv files/06_UG_ME_TimeTable_Jan-May-2024.xlsx - s8.csv",
+#         "csv files/06_UG_ME_TimeTable_Jan-May-2024.xlsx - PME_ERC.csv"
+#     ],
+#     [
+#         "csv files/04_UG_DS_TimeTable_Jan-May-2024.xlsx - s2,s4.csv"
+#     ]
+# ]
 
 branchnumber = {
     "CE": "02",
