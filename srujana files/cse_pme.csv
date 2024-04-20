@@ -1,0 +1,35 @@
+Indian Institute of Technology Palakkad,,,,,,,,
+Jan – May 2024,,,,,,,,
+Computer Science Engineering PME & ERC Courses,,,,,,,,
+,,,,,,,,
+Code,Course Name,Credits,"UG OE/
+GCE?",Prereq,Faculty,Slot,Room No,Availability
+CS5016,Computational Methods and Applications,2-0-3-4,No,,Albert Sunny,PA4+E4,"N Comp. Lab
+CS Lab (70)","BTech CSE S4, S6, S8, MCaM, MSoCD, MS, PhD"
+CS5014,Foundations of Data Science and Machine Learning,3-0-0-3,No,,Deepak Rajendraprasad,F,A01-102,"BTech CSE S6, S8, MCaM, MDS, MS, PhD"
+CS5616,Computational Complexity,3-0-0-3,No,,Dinesh Krishnamoorthy,B,A01-102,"BTech CSE S6, S8, MCaM, MS, PhD"
+CS5003,Parameterized Algorithms,3-0-0-3,No,,Krithika Ramaswamy,H,A01-102,"BTech CSE S6, S8, MCaM, MS, PhD"
+CS5633,Model Checking,3-0-2-4,Yes,,Jasine Babu,C (Theory) + E2 (Lab),"A01-102
+A01-Comp Lab1(100 seater lab)","BTech CSE S4, S6, S8, MCaM, MSoCD, MS, PhD"
+CS5639,Topics in Networks,1-0-3-3,No,,Anish Hirwe,"PA2+
+E2","A01-Comp lab 2 (35)
+A01-102","BTech CSE S8, MSoCD, MS, PhD"
+CS5510,Compiler Optimizations and Program Analysis,3-0-0-3,No,,Unnikrishnan Cheramangalath,L,A01-102,"BTech CSE S8, MSoCD, MS, PhD"
+CS5638,Quantum Computing ,3-0-0-3,No,,"Dinesh Krishnamoorthy, Srimanta Bhattacharya","E
+(for registration)
+
+(contact instructors for further details on lecture timings) ",A01-212,"BTech CSE S6, S8, MCaM, MS, PhD"
+CS5010,Graph Theory and Combinatorics,3-0-0-3,Yes,Yes,Srimanta Bhattacharya,I,A01-102,"BTech CSE S4, MS, PhD"
+CS5002,Functional Programming,3-0-0-3,Yes,,Piyush Kurur,B,A01-212,"BTech CSE S4, S6, S8, MCaM, MSoCD, MS, PhD"
+DS5102,Big Data Lab,1-0-3-3,No,,Nikhil Krishnan,PM3,A01-Comp Lab 1 (100 seater),"BTech CSE S6, S8"
+DS3040,Deep Learning ,3-0-3-5,"No
+",,Mrinal Das,"G and 
+PM5 (tentative)","A01-102
+A01-Comp Lab 1 (100 seater lab)","BTech CSE S6, S8"
+DS6004,Responsbile AI,3-0-0-3,No,,Sahely Bhadra,L,A01-001,"BTech CSE S6, S8"
+EE5605,Error-Correcting Codes for Communications and Distributed Systems,3-0-0-3,No,,Nikhil Krishnan ,F,A01-001,"BTech CSE S6, S8"
+CS5642M,Introduction To Machine Learning,3-0-0-3,-,-,NPTEL,-,-,"BTech CSE S6, S8, MCaM (OE), MSoCD"
+CS5643M,Reinforcement Learning ,3-0-0-3,-,-,NPTEL,-,-,"BTech CSE S6, S8, MCaM (OE), MSoCD"
+CS5637M,Secure Computation: Part I,3-0-0-3,-,-,NPTEL,-,-,"BTech CSE S6, S8"
+CS4608M,Cloud Computing,3-0-0-3,-,-,NPTEL,-,-,"BTech CSE S6, S8"
+CS5XXX,GPU Architectures and Programming,3-0-0-3,-,-,NPTEL,-,-,"BTech CSE S6, S8, MSoCD"

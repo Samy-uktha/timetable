@@ -1,0 +1,31 @@
+Indian Institute of Technology Palakkad,,,,,,,,
+Jan – May 2024,,,,,,,,
+M.Tech. in System-on-Chip Design PE/OE/ERC Courses,,,,,,,,
+,,,,,,,,
+Code,Course Name,Credits,"UG OE/
+GCE?",Prereq,Faculty,Slot,Room No,Availability
+EE5518,Nanoelectronic Devices,3-0-0-3,No,Yes,Revathy Padmanabhan,H,A01-103,"BTech(EE) S2/S4/S6/S8, MTech(SoCD) S2/S4, MS, PhD, as long as they meet the prerequisite"
+EE5606,Micro and Nanoscale Devices Laboratory,0-0-3-2,No,Yes,Revathy Padmanabhan,"E*
+(for registration)
+
+(contact instructor for further details on lab timings) ","Nila
+CIF-CMFF","BTech(EE) S2/S4/S6/S8, MTech(SoCD) S2/S4, MS, PhD, as long as they meet the prerequisite"
+EE5516,VLSI Architectures for signal processing and machine learning,2-0-2-3,No,Yes,Subrahmanyam Mula,"D
++
+PA3","A01-119
+N Electron. Lab","BTech(EE) S6/S8, MTech(SoCD) S2/S4, MS, PhD, as long as they meet the prerequisite"
+EE5525,Sensors and Signal Conditioning Circuits,3-0-0-3,No,Yes,Sreenath Vijayakumar,K,A01-119,BTech EE S6/S8 and MS/Ph.D.
+EE5003,RF and Microwave Passive Circuits,3-0-0-3,Yes,Yes,Sukomal Dey,L,A01-119,"BTech(EE) S4/S6/S8, MTech(SoCD) S2/S4, MS, PhD"
+CS5639,Topics in Networks,1-0-3-3,No,Yes,Anish Hirwe,PA2+E2,"A01-Comp lab 2 (35)
+A01-102","BTech CSE S8, MSoCD, MS, PhD"
+CS5510,Compiler Optimizations and Program Analysis,3-0-0-3,No,Yes,Unnikrishnan Cheramangalath,L,A01-102,"BTech CSE S8, MSoCD, MS, PhD"
+CS5002,Functional Programming,3-0-0-3,Yes,Yes,Piyush Kurur,B,A01-212,"BTech CSE S4, S6, S8, MCaM, MSoCD, MS, PhD"
+CS5016,Computational Methods and Applications,2-0-3-4,Yes,Yes,Albert Sunny,PA4+E4,"N Comp Lab
+CS Lab (70)","BTech CSE S4, S6, S8, MCaM, MSoCD, MS, PhD"
+CS5633,Model Checking,3-0-2-4,Yes,Yes,Jasine Babu,C (Theory) + E2 (Lab),"A01-102
+A01-Comp Lab1(100)","BTech CSE S4, S6, S8, MCaM, MSoCD, MS, PhD"
+CS5642M,Introduction To Machine Learning,3-0-0-3,-,-,NPTEL,-,-,
+CS5643M,Reinforcement Learning ,3-0-0-3,-,-,NPTEL,-,-,
+,,,,,,,,
+"*EE5606 is an elective lab course. It is slotted in E for registration purposes. 
+Students may please contact the course instructor for further details about the lab timings",,,,,,,,

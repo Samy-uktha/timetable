@@ -1,0 +1,23 @@
+1. Make an endpoint(/getCourses), where you need to handle client's request to get time-table 
+2. Client will be sending a get request at /getCourses, where you will get semester and branch in body and 
+3. put those into the function and send a array of dictionary of courses
+
+
+1. Make an endpoint(/makeTimetable), where you need to handle client's request to get time-table 
+2. Client will be sending a get request at /makeTimetable,
+3. You will be getting a array of courses, and sem and branch
+4. call the getCourses function using sem and branch, get array of dictionaries (dictionary should have code as key and slot as value)
+5. use dictionary and get vaues for selected courses (using code as key)
+6. send data in 5x(no. of slots)
+[[ce2040, ce2060, x, x, ce3060, x, x],[],[],[],[]]
+7. for mon wed fri one matrix then tue thu one matrix
+
+
+from fastapi import FastAPI
+from function import getData
+app = FastAPI()
+
+@app.post("/courses/")
+async def getCourses(sem, branch):
+    courses = getData(sem, branch)
+    return {"result" : courses}

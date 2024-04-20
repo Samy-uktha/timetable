@@ -1,0 +1,15 @@
+Indian Institute of Technology Palakkad,,,,,,,
+Jan – May 2024,,,,,,,
+"B. Tech. Computer Science Engineering Core Courses, Semester II and IV",,,,,,,
+,,,,,,,
+Code,Course Name,Credits,UG OE?,Prereq,Faculty,Slot,Room 
+CS2030,Data Structures and Algorithms,3-0-0-3,Yes*,Yes,Krithika Ramaswamy,B,"A01-002
+"
+CS2130,Data Structures and Algorithms Lab,0-0-3-2,No,Yes,"Deepak Rajendraprasad, Srimanta Bhattacharya ",PA4,A01-Comp Lab1 (100 seater lab)
+CS3060,Computer Architecture,3-0-0-3,Yes**,Yes,Sandeep Chandran,G,A01-Aud 
+CS3160,Computer Architecture Lab,0-0-3-2,Yes**,Yes,Sandeep Chandran,PA2,A01-Comp Lab1 (100 seater lab)
+DS2020,Introduction to Artificial Intelligence,3-0-2-4,No,Yes,C K Narayanan,"C+,PA3","A01-002
+A01-Comp Lab1 (100 seater lab)"
+,,,,,,,
+* Max 10 students outside CSE,,,,,,,
+** Max 5 students outside CSE ,,,,,,,
